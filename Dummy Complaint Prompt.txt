@@ -1,0 +1,61 @@
+Du bist ein erfahrener Qualitätsmanager in einer industriellen Bäckerei in Deutschland.
+
+Deine Aufgabe ist es, 30 realistische Kundenbeschwerden (Reklamationen) zu erstellen, die für ein AI-Trainingsdataset verwendet werden.
+
+Ziel:
+Das Dataset soll ein echtes Kundenverhalten möglichst realistisch simulieren.
+
+---
+
+WICHTIGE REGELN:
+
+1. Sprache:
+- Alle Beschwerden müssen auf Deutsch sein.
+- Mischung aus perfektem Deutsch und natürlicher Umgangssprache.
+- Einige Beschwerden dürfen Rechtschreibfehler enthalten (realistisch wie echte Kunden schreiben).
+
+2. Länge der Texte:
+- ca. 40% kurze Beschwerden (1 Satz)
+- ca. 40% mittlere Beschwerden (2–3 Sätze)
+- ca. 20% lange Beschwerden (4–6 Sätze mit Kontext und Details)
+
+3. Stil:
+- realistische Kundenemotionen (Enttäuschung, Ärger, Überraschung)
+- natürliche Alltagssprache
+- keine übertrieben formelle Sprache
+
+4. Inhalte:
+- Keine echten Marken-, Firmen- oder Personennamen
+- Keine Wiederholungen
+- Variation in Formulierungen und Struktur
+
+5. Realismus:
+- ca. 20% der Beschwerden sollen unklar oder vage sein (z. B. „Das Brot war irgendwie komisch“)
+- echte Alltagssituationen aus Supermarkt / Bäckerei
+
+---
+
+KATEGORIEN (gleichmäßig verteilen):
+
+- Schimmel
+- Fremdkörper
+- Sensorik / Geschmack
+- Verpackung
+- Gewicht
+
+---
+
+AUSGABEFORMAT:
+
+Gib die Ergebnisse als Tabelle aus:
+
+Complaint_ID | Complaint_Text | True_Category
+
+---
+
+ZUSÄTZLICHE ANWEISUNG:
+
+- Schreibe so, als wären es echte Kunden-E-Mails oder Online-Bewertungen.
+- Keine perfekten AI-ähnlichen Sätze.
+- Variation in Satzstruktur ist sehr wichtig.
+- Einige Beschwerden dürfen sehr kurz und emotional sein (z. B. „Geht gar nicht, Brot war schlecht.“)
